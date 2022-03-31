@@ -6,7 +6,7 @@
 */
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
   int saisie_utilisateur;
   printf("\nBonjour !");
@@ -17,4 +17,5 @@ void main(void)
     saisie_utilisateur >= 100 ? printf("\nRetrait refuse ") : printf("\nRetrait accepte ");
   }while(saisie_utilisateur!=0);
   printf("Au Revoir !");
+  return 0;
 }

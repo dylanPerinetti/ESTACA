@@ -14,7 +14,7 @@ int main(void)
   printf("\nBonjour !");
   do
   {
-    printf("/nEntrez la somme demandee : ");
+    printf("\nEntrez la somme demandee : ");
     scanf("%d", &saisie_utilisateur);
     afficherAutorisationRetrait(saisie_utilisateur);
   }while(saisie_utilisateur!=0);

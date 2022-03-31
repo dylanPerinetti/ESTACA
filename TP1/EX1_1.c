@@ -12,4 +12,5 @@ int main(void)
   printf("\nBonjour, entrez la somme demandee : ");
   scanf("%d", &saisie_utilisateur);
   saisie_utilisateur >= 100 ? printf("\nRetrait refuse ") : printf("\nRetrait accepte ");
+  return 0;
 }

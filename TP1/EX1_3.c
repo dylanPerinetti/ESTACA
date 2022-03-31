@@ -18,7 +18,7 @@ int main(void)
     scanf("%d", &saisie_utilisateur);
     afficherAutorisationRetrait(saisie_utilisateur);
   }while(saisie_utilisateur!=0);
-  printf("Au Revoir !");
+  printf("\nAu Revoir !");
   return 0;
 }
 

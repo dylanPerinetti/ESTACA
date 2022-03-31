@@ -8,17 +8,17 @@
 *
 *
 */
-#include <math.h>
+#include <stdio.h>
 
 int main(void)
 {
     int n,resultat=1;         // Declaration + affectation
   
-    printf("Veuillez saisir la valeur de n (pour calculer un coefficient binomial n parmis k ):\n>_");
+    printf("Veuillez saisir la valeur de n (pour calculer n!) :\n>_");
     scanf("%d",&n);           // Saisie utilistaeur
   
     for(int p=1;p<=n;p++)resultat = resultat*p;// Calacule du Factoriel
   
-    printf("%d! = %d\n",n,f); // affichage du resultat
+    printf("%d! = %d\n",n,resultat); // affichage du resultat
   return 0;                   // return pour le int main()
 }

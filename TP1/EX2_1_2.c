@@ -10,8 +10,7 @@
 
 int main(void)
 {
-  int n, k, factoriel_n = 1, factoriel_k = 1, factoriel_dif = 1, differance_n_k;// Declaration + affectation
-  float  resultat;
+  int n, k, factoriel_n = 1, factoriel_k = 1, factoriel_dif = 1, differance_n_k, resultat;// Declaration + affectation
 
   printf("\nVeuillez saisir la valeur de n (pour calculer un coefficient binomial k parmis n ) :\n>_");
   scanf("%d",&n);           // Saisie utilistaeur
@@ -25,6 +24,6 @@ int main(void)
   for(int p=1;p<=differance_n_k;p++)factoriel_dif = factoriel_dif*p;// Calacule du Factoriel differance_n_k
   
   resultat = factoriel_n/(factoriel_k*factoriel_dif);
-  printf("\nLe coefficient binomial k parmi n est : %f\n",resultat);  // affichage du resultat
+  printf("\nLe coefficient binomial k parmi n est : %d\n",resultat);  // affichage du resultat
   return 0;                         // return pour le int main()
 }

@@ -3,6 +3,9 @@
 * Créé par dylanPerinetti 
 * Le 31/03/2022
 *
+*
+* stdin : n , k
+* stdout : resultat
 */
 #include <stdio.h>
 

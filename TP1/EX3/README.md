@@ -1,4 +1,7 @@
 # EX3 DU TP N°1
+
+### /!\ATTENTION LE PROGRAMME N'A PAS ÉTÉ VERIFIÉ /!\
+
 ## Pour compiler les fichier d'extention .c avec le compilateur GCC.  
 Entrez la commande suivante :
 

@@ -1,7 +1,7 @@
 /*
 * Retrouver l'essemble des TP sur "https://github.com/dylanPerinetti/ESTACA" 
 * Créé par dylanPerinetti 
-* Le 31/03/2022
+* Le 1/04/2022
 *
 * 3) Les entrés et les sorties de ce programme sont n, k pour les stdin et resultat pour sdtout
 *
